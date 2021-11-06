@@ -133,6 +133,7 @@ body{
 footer{
     background-color: white;
     font-family: 'Ceviche One', cursive;
+    margin-top:10px;
 }
 
 .flex-dad{
@@ -143,6 +144,15 @@ footer{
 .ajuda{
     font-size: 19px;
     margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.localiza{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    font-size: 18px;
 }
 
 .localizacao{
@@ -152,8 +162,15 @@ footer{
 }
 
 #locatxt{
+    margin-left: 550px;
+}
+
+.mapa{
     display: flex;
     justify-content: center;
+}
+
+.redes-sociais{
     font-size: 20px;
 }
 
@@ -176,9 +193,5 @@ footer{
 .twitter:hover{
     background-color: #1DA1F2;
     border-radius: 5px;
-    
-}
-
-.mapa-div{
     
 }

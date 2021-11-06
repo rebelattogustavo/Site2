@@ -1,0 +1,197 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    font-family: 'Ceviche One', cursive;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 40px 60px;
+}
+
+.logo-show{
+    display: flex;
+    justify-content: center;
+}
+
+.home-geral{
+    color: white;
+    font-size: 22px;
+    margin: 10px 
+}
+
+.home-geral:hover{
+    border-bottom: white solid 1px;
+}
+
+.sobre-geral{
+    color: white;
+    font-size: 22px;
+    margin: 0 0 0 30px;
+    border-bottom: solid 1px black;
+}
+
+.sobre-geral:hover{
+    border-bottom: white solid 1px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    color: white;   
+}
+
+.contato-principal{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.comeco-div{
+    
+}
+
+.nome{
+    color: white;
+}
+
+.input-nome{
+    margin-bottom: 15px;
+    padding: 0 40px 30px 0;
+    font-family: 'Ceviche One', cursive;
+    outline: none;
+    border-radius: 5px;
+}
+
+.telefone{
+    color: white;
+}
+
+.input-telefone{
+    padding: 0 40px 30px 0;
+    margin-bottom: 15px;
+    font-family: 'Ceviche One', cursive;
+    outline: none;
+    border-radius: 5px;
+}
+
+.email{
+    color: white;
+}
+
+.input-email{
+    padding: 0 40px 30px 0;
+    font-family: 'Ceviche One', cursive;
+    outline: none;
+    border-radius: 5px;
+}
+
+.mensagem-div{
+    margin: 0 0 0 50px;
+}
+
+.mensagem{
+    color: white;
+}
+
+.input-msg{
+    padding: 0 40px 100px 0;
+    font-family: 'Ceviche One', cursive;
+    border-radius: 5px;
+    outline: none;
+}
+
+.botoes-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-enviar{
+    margin: 0 15px 0 0;
+    padding: 0 6px;
+    font-family: 'Ceviche One', cursive;
+}
+
+.botao-reset{
+    padding: 0 6px;
+    font-family: 'Ceviche One', cursive;
+}
+
+footer{
+    background-color: white;
+    font-family: 'Ceviche One', cursive;
+    margin-top: 88px;
+}
+
+.flex-dad{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ajuda{
+    font-size: 19px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.localiza{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    font-size: 18px;
+}
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locatxt{
+    margin-left: 550px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    font-size: 20px;
+}
+
+.insta{
+    width: 50px;
+    margin: 10px;
+}
+
+.insta:hover{
+    background: rgb(245,133,41);
+    background: linear-gradient(0deg, rgba(245,133,41,1) 5%, rgba(254,218,119,1) 31%, rgba(221,42,123,1) 52%, rgba(129,52,175,1) 71%, rgba(81,91,212,1) 91%);
+    border-radius: 15px;
+}
+
+.twitter{
+    width: 50px;
+    margin: 10px;
+}
+
+.twitter:hover{
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    
+}

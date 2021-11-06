@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(255,68,35);
+    background: linear-gradient(90deg, rgba(255,68,35,1) 0%, rgba(242,131,19,1) 46%, rgba(255,244,0,1) 100%);
+}
+
+main{
+    font-family: 'Ceviche One', cursive;
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo-show{
+    display: flex;
+    justify-content: center;
+}
+
+.home-geral{
+    color: white;
+    font-size: 22px;
+    margin: 10px 0 0 60px;
+    border-bottom: solid 1px transparent;
+}
+
+.home-geral:hover{
+    border-bottom: solid white 1px;
+}
+
+.sobre-geral{
+    color: white;
+    font-size: 22px;
+    margin: 10px 0 0 30px;
+    border-bottom: solid 1px transparent;
+}
+
+.sobre-geral:hover{
+    border-bottom: solid white 1px;
+}
+
+.entre-contato-geral{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px 0 0 30px;
+    border-bottom: solid 1px transparent;
+}
+
+.entre-contato-geral:hover{
+    border-bottom: solid white 1px;
+}
+
+.ingressos-geral1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.txt-ingresso{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+}
+
+.img-50cent{
+    margin-left: 150px;
+    width: 40%;
+}
+
+.txt-ingresso-baixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.preco-ingresso{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10px;
+    border: solid 1px red;
+    width: 350px;
+    border-radius: 7px;
+    margin: 50px 0 0 0;
+}
+
+.ingresso-sexta1 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-compra{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.botao-compra-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 800;
+    height: 46px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.ingresso-sexta1:hover .botao-compra-child{
+    visibility: visible;
+}
+
+button{
+    color: white;
+
+}
+
+.txt-ingresso-eminem{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 46px;
+}
+
+.img-eminem{
+    width: 60%;
+    margin: 0 0 0 120px; 
+}
+
+.preco-ingresso-sabado{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10px;
+    border: solid 1px red;
+    width: 350px;
+    border-radius: 7px;
+    margin: 50px 0 0 0;
+}
+
+.ingresso-sabado1 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
