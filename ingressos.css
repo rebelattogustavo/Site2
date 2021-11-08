@@ -66,51 +66,49 @@ main{
 }
 
 
-
-.txt-ingresso{
+.ingresso-sexta1{
+    width: 100%;
     display: flex;
     justify-content: center;
-    color: black;
-    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
 }
 
-.img-50cent{
-    margin-left: 150px;
-    width: 40%;
+.titulo{
+    text-align: center;
 }
 
-.txt-ingresso-baixo{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.preco-ingresso{
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    margin-top: 10px;
-    border: solid 1px red;
-    width: 350px;
-    border-radius: 7px;
-    margin: 50px 0 0 0;
-}
-
-.ingresso-sexta1 div{
+.imagem{
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
+.imagem img{
+    width: 210px;
+}
+
+.txt-1{
+    text-align: center;
+}
+
+.preco-ingresso{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 60px;
+    border: solid 1px red;
+    width: 65%;
+    border-radius: 7px;
+}
+
+
 
 .botao-compra{
     width: 100%;
     margin-top: 25px;
 }
 
-.botao-compra-child{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.botao-compra button{
     width: 50%;
     background-color: black;
     border: none;
@@ -119,11 +117,13 @@ main{
     font-size: 17px;
     font-weight: 800;
     height: 46px;
-    visibility: hidden;
+    /* visibility: hidden; */
     cursor: pointer;
 }
 
-.ingresso-sexta1:hover .botao-compra-child{
+
+
+.ingresso-sexta1:hover .botao-compra button{
     visibility: visible;
 }
 
@@ -155,8 +155,172 @@ button{
     margin: 50px 0 0 0;
 }
 
-.ingresso-sabado1 div{
+.ingresso-sabado1{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+
+.ingresso-sabado1:hover .botao-compra-child{
+    visibility: visible;
+}
+
+.img-snoop{
+    width: 50%;
+    margin: 0 0 0 110px; 
+}
+
+.ingresso-domingo1 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-compra-child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 800;
+    height: 46px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.ingresso-domingo1:hover .botao-compra-child2{
+    visibility: visible;
+}
+
+.ingressos-geral2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-menosemais{
+    width: 100%;
+    margin: 0 0 0 0px; 
+}
+
+.botao-compra-child3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 800;
+    height: 46px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.ingresso-sexta2:hover .botao-compra-child3{
+    visibility: visible;
+}
+
+.ingresso-sabado2{
+    margin-left: 40px;
+}
+
+.botao-compra-child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    font-weight: 800;
+    height: 46px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.ingresso-sabado2:hover .botao-compra-child4{
+    visibility: visible;
+}
+
+
+.img-vintage{
+    width: 100%;
+    margin: 0 0 0 0px; 
+}
+
+footer{
+    background-color: white;
+    font-family: 'Ceviche One', cursive;
+    margin-top:10px;
+}
+
+.flex-dad{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ajuda{
+    font-size: 19px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.localiza{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+    font-size: 18px;
+}
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locatxt{
+    margin-left: 550px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    font-size: 20px;
+}
+
+.insta{
+    width: 50px;
+    margin: 10px;
+}
+
+.insta:hover{
+    background: rgb(245,133,41);
+    background: linear-gradient(0deg, rgba(245,133,41,1) 5%, rgba(254,218,119,1) 31%, rgba(221,42,123,1) 52%, rgba(129,52,175,1) 71%, rgba(81,91,212,1) 91%);
+    border-radius: 15px;
+}
+
+.twitter{
+    width: 50px;
+    margin: 10px;
+}
+
+.twitter:hover{
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    
 }
